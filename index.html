@@ -20,12 +20,9 @@
         Welcome to our survey form. We promise to be confidentility with your
         personal data. We don't spam
       </p>
-
       <form id="survey-form">
         <div class="form-group">
-          <label id="name-label" for="name" class="font-weight-bold"
-            >Name</label
-          >
+          <label id="name-label" for="name">Name</label>
           <input
             type="text"
             class="form-control form-control-lg"
@@ -34,9 +31,32 @@
             placeholder="Enter Name"
           />
         </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            class="form-control form-control-lg"
+            id="email"
+            aria-describedby="emailHelp"
+            placeholder="Enter Email"
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number" class="font-weight-bold"
+            >Number</label
+          >
+          <input
+            type="number"
+            class="form-control form-control-lg"
+            id="number"
+            aria-describedby="numberHelp"
+            placeholder="Enter Number"
+            min="18"
+            max="65"
+          />
+        </div>
       </form>
     </div>
-    Hello World, we are software developers!
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
